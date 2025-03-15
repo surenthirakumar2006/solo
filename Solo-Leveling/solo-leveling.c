@@ -633,7 +633,7 @@ void parse_input() {
 void process_input() {
   get_user_input();
   parse_input();
-  // printf("\033[2J");
+  printf("\033[2J");
 }
 
 int main() {
